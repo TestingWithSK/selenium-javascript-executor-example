@@ -12,13 +12,9 @@ In this article, you will learn about how JavaScriptExecutor works in selenium. 
 
 ### ExecuteAsyncScript
 This method executes an asynchronous piece of JavaScript on the current webpage. With the asynchronous script, web pages render very quickly, Instead of waiting for the script to download before the page renders which enhances the application performance.
-You can find the [ImplicitWaitTest](https://github.com/TestingWithSK/selenium-wait-demo/blob/master/src/test/java/test/ImplicitWaitTest.java)
-class inside `src/test/java/test`.
 
 ### ExecuteScript
 This method executes JavaScript in the context of the currently selected webpage or window. The script in this method runs in the body of an anonymous function. This script can return WebElement, long, Boolean, list, or String.
-You can find the [ExplicitWaitTest](https://github.com/TestingWithSK/selenium-wait-demo/blob/master/src/test/java/test/ExplicitWaitTest.java)
-class inside `src/test/java/test`.
 
 ### Clone the repository using -
 
